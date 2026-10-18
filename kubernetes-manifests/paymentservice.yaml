@@ -68,7 +68,7 @@ kind: Service
 metadata:
   name: paymentservice
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: paymentservice
   ports:
